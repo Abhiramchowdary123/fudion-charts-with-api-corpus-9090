@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import ExcelExport from 'fusioncharts/fusioncharts.excelexport';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StackedBarchartComponent } from './stacked-barchart/stacked-barchart.component';
+import { ComponentComponent } from './component/component.component';
 
 FusionCharts.addDep(Charts);
 FusionCharts.addDep(FusionTheme);
@@ -34,7 +35,8 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
     PiechartComponent,
     DoughnutChartComponent,
     LineChartComponent,
-    StackedBarchartComponent
+    StackedBarchartComponent,
+    ComponentComponent
 
   ],
   imports: [
